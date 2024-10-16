@@ -1,3 +1,18 @@
+
+body {
+    background-image: url(./assets/bg-image.png); /* Imagem de fundo */
+    background-size: cover; /* Cobrir imagem de fundo */
+}
+
+#page {
+    box-sizing: border-box; /* Remove padrões já definidos pelo navegador */
+    width: 800px; /* Largura */
+    padding: 24px; /* Espaçamento */
+    background-color: #F0E8C2; /* Cor do fundo */
+    border-radius: 24px; /* Arredondamento de bordas da página*/
+    margin: 48px auto; /* Alinhando a margem da página e definindo tamanho de cima e de baixo */
+}
+
 img {
     border-radius: 16px;
 }
